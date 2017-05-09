@@ -1,4 +1,4 @@
-# IBM Spectrum Conductor for Containers - Cron sample for Jenkins CI/CD test
+# IBM Spectrum Conductor for Containers - App sample for Jenkins CI/CD test
 
 IBM Spectrum Conductor for Containers (CfC) is a server platform for developing and managing on-premise, containerized applications. 
 
