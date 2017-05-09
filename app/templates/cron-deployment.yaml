@@ -8,17 +8,17 @@ spec:
   template:
     metadata:
       labels:
-        app: cron-chart
-        image: master_cfc_8500_default_cron_latest
+        app: app-chart
+        image: master_cfc_8500_default_app_latest
     spec:
       hostNetwork: false
       containers:
       - name: cron-chart
-        image: master.cfc:8500/default/cron:latest
+        image: master.cfc:8500/default/app:latest
         imagePullPolicy: Always
         ports:
         - protocol: TCP
-          containerPort: 80
+          containerPort: 9080
         resources:
           limits:
             cpu: 0.5m
