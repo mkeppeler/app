@@ -21,7 +21,7 @@ spec:
           containerPort: 9080
         resources:
           limits:
-            cpu: 2
-            memory: 1024
+            cpu: 1
+            memory: 128Mi
       imagePullSecrets:
       - name: admin.registrykey
