@@ -32,8 +32,8 @@
             ],
             "resources": {
               "limits": {
-                "cpu": "2",
-                "memory": "1024"
+                "cpu": "200m",
+                "memory": "128Mi"
               }
             }
           }
