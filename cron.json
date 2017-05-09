@@ -10,7 +10,7 @@
       "metadata": {
         "labels": {
           "app": "cron",
-          "image": "master_cfc_8500_default_cron_latest"
+          "image": "master_cfc_8500_default_app_latest"
         }
       },
       "spec": {
@@ -18,12 +18,12 @@
         "containers": [
           {
             "name": "cron",
-            "image": "master.cfc:8500/default/cron:latest",
+            "image": "master.cfc:8500/default/app:latest",
             "imagePullPolicy": "Always",
             "ports": [
               {
                 "protocol": "TCP",
-                "containerPort": 80
+                "containerPort": 9080
               }
             ],
             "resources": {
