@@ -19,9 +19,11 @@ spec:
         ports:
         - protocol: TCP
           containerPort: 9080
+        - protocol: TCP
+          containerPort: 9443
         resources:
           limits:
             cpu: 1
-            memory: 128Mi
+            memory: 1024Mi
       imagePullSecrets:
       - name: admin.registrykey
