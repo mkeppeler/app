@@ -4,4 +4,4 @@
 # name: value
 
 Master:
-  Name: "cron-job"
+  Name: "app-job"
