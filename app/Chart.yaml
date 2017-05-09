@@ -2,4 +2,4 @@ apiVersion: v1
 name: app
 version: 0.1.0
 description: A test helm chart for app
-icon: http://tomcat.apache.org/images/tomcat.png
+icon: https://www.ibm.com/blogs/bluemix/wp-content/uploads/2015/09/java-liberty_200x.png
